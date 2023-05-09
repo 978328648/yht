@@ -1,0 +1,6 @@
+server:
+  port: 8083
+#  ssl:
+#    key-store: classoath:xxxxxx.pfx
+#    key-store-password: xxxxxx
+#    key-store-type: xxxxxx
