@@ -11,7 +11,7 @@ public class M3Application {
 
     public static void main(String[] args) {
         SpringApplication.run(M3Application.class, args);
-        System.out.println("启动成功...");
+        System.out.println("启动成功...1");
     }
 
 }
