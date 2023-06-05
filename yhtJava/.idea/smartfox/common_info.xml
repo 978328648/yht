@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SmartFoxWorkToolsProjectState">
-    <option name="branch" value="main" />
+    <option name="branch" value="dem/0.0.2" />
     <option name="gitUrl" value="https://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@github.com/978328648/yht.git" />
-    <option name="localBranch" value="main" />
-    <option name="revision" value="59fa7af385ede80f41faebd2b99f2f70d75a827b" />
+    <option name="localBranch" value="dem/0.0.2" />
+    <option name="revision" value="c9e92143d2fac08c9854742b9043befa809bf6d9" />
   </component>
 </project>
