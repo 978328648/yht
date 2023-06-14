@@ -1,7 +1,22 @@
 server:
-  port: 8080
+  port: 8089
   ssl:
     key-store: server.keystore ##秘钥库文件名称，即上面生成的自签名证书
     key-store-password: 123456 ## 生成秘钥库文件的密码
     key-store-type: JKS ## 秘钥库类型（JKS为jdk的keytool工具默认生成的秘钥库类型）
     key-alias: tomcat ## 秘钥别名
+    enabled: true
+
+spring:
+  # 数据源配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://www.a57521.com/curtain?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8
+    #    url: jdbc:mysql://localhost:3306/mysql?useSSL=false&serverTimezone=UTC&characterEncoding=UTF8
+    #    curtain
+    username: curtain
+    password: demaxiya789.
+
+# 开启权限拦截
+auth:
+  enabled: true
